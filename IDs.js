@@ -1880,5 +1880,5 @@ var locdata =
 if(window.location.search){
   const params = new URLSearchParams(window.location.search);
  if (params.has('ort') && locdata[params.get('ort')] !== undefined) {
-  $('.ort').text("in " + locdata[params.get('ort')]);
+  $('.ort').text("In " + locdata[params.get('ort')] + " und Umgebung");
  }}
